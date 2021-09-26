@@ -1,5 +1,41 @@
 <html>
     <body>
-        
+        <div id="entryForm_container" >            
+        <form>
+            <label for="txtExamSection">Exam Section:</label>
+            <input type="text" id="txtExamSection"> <br>
+            
+            <label for="txtNum">Num:</label>
+            <input type="text" id="txtNum"> <br>
+
+            <label for="txtQuestion">Question:</label>
+            <input type="text" id="txtQuestion"> <br>
+            
+            <label for="txtA">A:</label>
+            <input type="text" id="txtA"> <br>
+            
+            <label for="txtB">B:</label>
+            <input type="text" id="txtB"> <br>
+            
+            <label for="txtC">C:</label>
+            <input type="text" id="txtC"> <br>
+            
+            <label for="txtD">D:</label>
+            <input type="text" id="txtD"> <br>
+
+            <label for="txtAnswer">Answer:</label>
+            <input type="text" id="txtAnswer"> <br/>
+
+        </form>
+        <button id="btnCreateSQL" onclick="createSQL">CreateSQL</button>
+
+        </div>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="script.js"> </script>
+    
     </body>
+    
 </html>
